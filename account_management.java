@@ -60,7 +60,9 @@ class account_management {
                 break;
             case 5:
                 double interestRate = 0.05;
-                double interest = amount * interestRate;
+                System.out.println("Enter number of years");
+                int years=sc.nextInt();
+                double interest = amount * interestRate*years;
                 System.out.println("Interest earned: " + interest);
                 break;
             case 6:
